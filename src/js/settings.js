@@ -7,6 +7,12 @@ export const idFor = {
     popupEmail: 'popupEmail',
     closePopupEmail: 'closePopup',
   },
+  popupCookies: {
+    cookies: 'cookies',
+    buttonAccept: 'buttonAccept',
+    buttonReject: 'buttonReject',
+    postsWrapper: 'posts-wrapper'
+  }
 };
 export const classNames = {
   header: {
