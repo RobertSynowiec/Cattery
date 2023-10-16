@@ -1,0 +1,152 @@
+.containerTopWrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(/video/top.mp4);
+  background-position: center center;
+  background-size: cover;
+
+  .headerWrapper{
+    border-bottom: 1px solid $color-light;
+    width: 100%;
+    position: fixed;
+
+    &.active{
+      background-color: rgba(255,255,255,0.5);
+      opacity: 1;
+      z-index: 2;
+
+      a{
+        color: $color-dark;
+
+        &.active{
+
+          border-bottom: 2px solid $color-dark;
+        }
+      }
+
+      .containerHeader .top-logo p {
+        color: $color-dark;
+      }
+
+      .fa-brands {
+        color: $color-dark;
+      }
+    }
+
+    .slider{
+
+      height: 1px;
+      background-color: $color-dark;
+      margin-top: 80px;
+      position: absolute;
+      transition: .4s linear;
+      opacity: .6;
+    }
+
+    .containerHeader{
+
+      display: flex;
+      flex-direction: row-reverse;
+      height: 80px;
+      align-items: center;
+      font-size: 16px;
+      font-family: $font-text;
+      padding: 0 20px;
+      width: 90%;
+      margin: 0 auto;
+      font-weight: 300;
+
+      .menu{
+        ul {
+          display: flex;
+          justify-content: end;
+          padding-right: 35px;
+
+          li{
+            display: inline-block;
+            padding-left: 30px;
+
+            a{
+              opacity: .6;
+            }
+
+            a:hover{
+              color: $color-one;
+            }
+          }
+        }
+      }
+
+      .socialMedia {
+        display: flex;
+
+        ul{
+          display: flex;
+          padding-left: 35px;
+          justify-content: start;
+
+          li{
+            display: inline-block;
+            padding-right: 30px;
+
+            a{
+              opacity: .6;
+            }
+
+            a:hover{
+              color: $color-one;
+            }
+
+          }
+        }
+      }
+
+      .topLogo {
+        display: flex;
+        justify-content: center;
+
+        p{
+          color: $color-light;
+          font-family: $font-header;
+          font-weight: 300;
+          font-size: 22px;
+          letter-spacing: 0.5em;
+        }
+      }
+    }
+  }
+
+  .mainTitle{
+    display: flex;
+    top: 50%;
+    align-items: center;
+    transform: translate(0, -50%);
+    flex-direction: column;
+    font-family: $font-header;
+    position: relative;
+
+    h2 {
+      font-size: 6.5em;
+      color: $color-light;
+      opacity: .5;
+    }
+
+    h4{
+      font-size: 2em;
+      color: $color-light;
+      opacity: .5;
+    }
+  }
+
+}
+
+.headerVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}

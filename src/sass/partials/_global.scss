@@ -1,0 +1,65 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: $font-text;
+  color: $color-dark;
+}
+
+a{
+  font-style: normal;
+  text-decoration: none;
+  color: $color-light;
+}
+
+a.active{
+
+  border-bottom: 2px solid $color-light;
+}
+
+.border-all{
+  border: 1px solid $color-border;
+}
+
+.container {
+  margin: 60px auto;
+  max-width: 1140px;
+  padding: 0 15px;
+
+}
+
+.fa-brands {
+  color: $color-light;
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+}
+
+p{
+  color: $color-dark;
+}
+
+.sectionTitle{
+  font-size: 40px;
+  font-family: $font-header;
+  margin: 10px auto 80px auto ;
+  text-align: center;
+  font-weight: 400;
+}
+
+.justify{
+  text-align: justify;
+}

@@ -1,0 +1,13 @@
+{
+    "extends": [
+      "html-validate:recommended"
+    ],
+
+    "rules": {
+      "close-order": "error",
+      "element-permitted-content": ["warn", {"style": "omit"}],
+      "wcag/h30": ["warn", {"style": "omit"}],
+      "no-autoplay": ["warn", {"style": "omit"}],
+      "svg-focusable": ["warn", {"style": "omit"}]
+    }
+  }
