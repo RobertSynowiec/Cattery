@@ -2,8 +2,10 @@ export const classFor = {
   headerEffect: {
     sectionTitle: '.sectionTitle',
     headerWrapper: '.headerWrapper',
+  },
+  scrollBar: {
+    slider: '.slider',
   }
-
 };
 export const idFor = {
   popup: {

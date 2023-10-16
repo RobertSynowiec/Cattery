@@ -7,7 +7,6 @@ class HeaderEffect {
     }
     init() {
         document.addEventListener('DOMContentLoaded', function () {
-            console.log('scroll')
             const container = document.querySelector(classFor.headerEffect.sectionTitle);
             const containerMain = document.querySelector(classFor.headerEffect.headerWrapper);
             const windowHeight = window.innerHeight;
