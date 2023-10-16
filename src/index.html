@@ -55,38 +55,78 @@
           <path class="a5" d="M20 90 L30 100 L40 90"></path>
         </svg>
     </header>
+    <footer class="text-center text-lg-start bg-white text-muted">
+        <div class="text-center text-md-start mt-5">
+          <div class="row pt-5 pb-5">
+            <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                What is this place?
+              </h6>
+              <p class="justify">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                Information
+              </h6>
+              <p class="justify">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3 text-secondary"></i>City street country </p>
+              <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>
+                e-mail adress
+              </p>
+              <p><i class="fas fa-phone me-3 text-secondary"></i> +48 000000000</p>
+              <a href="https://www.facebook.com" class="me-4 link-secondary">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com" class="me-4 link-secondary">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      <div class="text-center p-4">
+        © <span id="footerYear"></span> Copyright: Cattery name - Cattery I All rights reserved. I
+        <span class="fst-italic"><a href="#">Privacy policy</a></span>
+      </div>
+    </footer>
 
     <!-- popupEmail template-->
-  <div id="popup" class="popup">
-    <span class="closeButton" id="closePopup">x</span>
-    <h2 id="showPopup">Have a question?</h2>
-    <h4>Contact us!</h4>
-    <ul>
-        <li><i class="fa-solid fa-envelope"></i> e-mail adress</li>
-        <li><i class="fa-solid fa-phone" ></i> +48 000000000</li>
-    </ul>
-    <p>We would like to inform you that the administrator of personal data is the Cattery name breeding farm. The personal data provided by you will be processed for the purpose of processing your inquiry. Detailed rules for processing and your rights in connection with it are described in <span>Privacy Policy.</span></p>
-  </div>
-
-    <!-- Start popup cookies -->
-  <div id="cookies" class="cookiesBottom d-none">
-    <h4 class="titleCookies col-12">We care about your privacy.</h4>
-    <div class="wrapperCookies">
-        <p>We use cookies to improve the operation of the website. By clicking the "I accept" button, you consent to the use of cookies. By pressing the "Decline" button, access to the website will be blocked. To learn more about the use of cookies and the processing of your data, please read our <a href="#">Privacy policy</a></p>
-            <div class="d-flex justify-content-end col-2">
-                <button type="button" id="buttonAccept" class="closeCookies">Accept</button>
-            </div>
-            <div class=" col-2">
-                <button type="button" id="buttonReject" class="closeCookies">Reject</button>
-            </div>
+    <div id="popup" class="popup">
+        <span class="closeButton" id="closePopup">x</span>
+        <h2 id="showPopup">Have a question?</h2>
+        <h4>Contact us!</h4>
+        <ul>
+            <li><i class="fa-solid fa-envelope"></i> e-mail adress</li>
+            <li><i class="fa-solid fa-phone" ></i> +48 000000000</li>
+        </ul>
+        <p>We would like to inform you that the administrator of personal data is the Cattery name breeding farm. The personal data provided by you will be processed for the purpose of processing your inquiry. Detailed rules for processing and your rights in connection with it are described in <span>Privacy Policy.</span></p>
     </div>
-  </div>
-  <!--links with javascript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <script src="./js/app.js" type="module"></script>
-  <script src="./js/components/popupEmail.js" type="module"></script>
-  <script src="./js/components/popupCookies.js" type="module"></script>
-  <script src="./js/components/headerEffect.js" type="module"></script>
-  <script src="./js/components/scrollBar.js" type="module"></script>
+    <!-- Start popup cookies -->
+    <div id="cookies" class="cookiesBottom d-none">
+        <h4 class="titleCookies col-12">We care about your privacy.</h4>
+        <div class="wrapperCookies">
+            <p>We use cookies to improve the operation of the website. By clicking the "I accept" button, you consent to the use of cookies. By pressing the "Decline" button, access to the website will be blocked. To learn more about the use of cookies and the processing of your data, please read our <a href="#">Privacy policy</a></p>
+                <div class="d-flex justify-content-end col-2">
+                    <button type="button" id="buttonAccept" class="closeCookies">Accept</button>
+                </div>
+                <div class=" col-2">
+                    <button type="button" id="buttonReject" class="closeCookies">Reject</button>
+                </div>
+        </div>
+    </div>
+    <!--links with javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./js/app.js" type="module"></script>
+    <script src="./js/components/popupEmail.js" type="module"></script>
+    <script src="./js/components/popupCookies.js" type="module"></script>
+    <script src="./js/components/headerEffect.js" type="module"></script>
+    <script src="./js/components/scrollBar.js" type="module"></script>
   </body>
 </html>

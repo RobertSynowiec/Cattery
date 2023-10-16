@@ -1,0 +1,25 @@
+footer{
+    .row{
+      display: flex;
+      align-items: start;
+      border-top: 1px solid $color-border ;
+      border-bottom: 1px solid $color-border ;
+    }
+    p{
+      font-size: 16px;
+    }
+    h6{
+      text-align: center;
+      color: $color-one;
+      font-size: 20px;
+      font-family: $font-header;
+    }
+    a{
+        color: $color-one;
+
+        &:hover{
+            opacity: 0.7;
+            color: $color-one;
+        }
+    }
+  }
