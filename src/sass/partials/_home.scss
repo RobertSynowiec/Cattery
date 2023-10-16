@@ -138,9 +138,7 @@
       opacity: .5;
     }
   }
-
 }
-
 .headerVideo {
   object-fit: cover;
   width: 100vw;
@@ -149,4 +147,79 @@
   top: 0;
   left: 0;
   z-index: -1;
+}
+.our {
+  border-bottom: 1px solid $color-border;
+  max-width: 1140px;
+  margin: 0 auto;
+
+  .ourHeight{
+    min-height: 200px;
+  }
+
+  .quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .quoteText{
+      font-size: 30px;
+      font-family: $font-text;
+      margin-bottom: 6px;
+      font-weight: 500;
+      font-style: italic;
+
+    }
+
+    .quoteAuthor{
+      color: $color-link;
+      text-align: right;
+      padding-right: 45px;
+      font-size: 18px;
+      font-weight: 400;
+
+      &::before {
+        content: "— ";
+      }
+    }
+  }
+}
+.navContainer{
+  height: 150px;
+  display: flex;
+  justify-content: end;
+  line-height: 35px;
+  align-items: center;
+
+  .nav{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+
+    li{
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+      height: 30px;
+
+      a{
+        color: $color-link;
+        font-size: 16px;
+
+        &:hover{
+          opacity: 0.5;
+        }
+
+        &:active{
+          color: $color-one;
+        }
+      }
+
+      .fa-arrow-right-long{
+        margin-left: 10px;
+      }
+    }
+  }
 }
