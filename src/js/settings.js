@@ -1,4 +1,8 @@
 export const classFor = {
+  headerEffect: {
+    sectionTitle: '.sectionTitle',
+    headerWrapper: '.headerWrapper',
+  }
 
 };
 export const idFor = {
