@@ -43,8 +43,16 @@ a.active{
   color: $color-light;
 }
 
-.height45 {
-  height: 45%;
+.height70 {
+  height: 70%;
+}
+
+.height650 {
+  max-height: 650;
+}
+
+.height600 {
+  max-height: 600;
 }
 
 li{

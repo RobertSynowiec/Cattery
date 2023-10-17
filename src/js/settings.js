@@ -17,7 +17,9 @@ export const idFor = {
     cookies: 'cookies',
     buttonAccept: 'buttonAccept',
     buttonReject: 'buttonReject',
-    postsWrapper: 'posts-wrapper'
+  },
+  blog: {
+    postsWrapper: 'postsWrapper'
   }
 };
 export const classNames = {
@@ -39,4 +41,15 @@ export const settings = {
     songs: 'songs',
     authors: 'authors',
   }
+};
+const select = {
+  templateOf: {
+    listPosts: '#templatePosts',
+
+  }
+};
+export const templates = {
+  listPosts: Handlebars.compile(
+    document.querySelector(select.templateOf.listPosts).innerHTML
+  ),
 };
