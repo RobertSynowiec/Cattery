@@ -6,11 +6,21 @@ import Blog from './components/blog.js';
 import { dataSource } from './data.js';
 
 export const app = {
-  initData: function () {
 
-    this.data = dataSource;
+  loadData: function () {
+    return new Promise((resolve, reject) => {
+
+      setTimeout(() => {
+        this.data = dataSource;
+        resolve(this.data);
+      }, 500);
+    });
+  },
+
+
+  initData: async function () {
+    this.data = await this.loadData();
     this.initBlog();
-
   },
 
   initPopupEmail: function () {
