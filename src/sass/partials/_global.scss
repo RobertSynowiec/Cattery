@@ -43,9 +43,18 @@ a.active{
   color: $color-light;
 }
 
+.height45 {
+  height: 45%;
+}
+
 li{
   list-style: none;
   cursor: pointer;
+}
+
+.objecfFit{
+  object-fit: cover;
+
 }
 
 p{

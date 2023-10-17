@@ -139,6 +139,7 @@
     }
   }
 }
+
 .headerVideo {
   object-fit: cover;
   width: 100vw;
@@ -148,6 +149,7 @@
   left: 0;
   z-index: -1;
 }
+
 .our {
   border-bottom: 1px solid $color-border;
   max-width: 1140px;
@@ -185,6 +187,7 @@
     }
   }
 }
+
 .navContainer{
   height: 150px;
   display: flex;
@@ -221,5 +224,10 @@
         margin-left: 10px;
       }
     }
+  }
+
+  .card{
+    padding: 0;
+    margin: 0 ;
   }
 }
