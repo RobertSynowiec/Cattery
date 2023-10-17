@@ -7,20 +7,22 @@ import { dataSource } from './data.js';
 
 export const app = {
 
-  loadData: function () {
-    return new Promise((resolve, reject) => {
-
-      setTimeout(() => {
-        this.data = dataSource;
-        resolve(this.data);
-      }, 500);
-    });
+  initData: function () {
+    this.loadData(function (dataSource) {
+      this.data = dataSource;
+      setTimeout(function () {
+        this.initBlog();
+      }.bind(this), 0);
+    }.bind(this));
   },
 
+  loadData: function (callback) {
+    const data = dataSource;
 
-  initData: async function () {
-    this.data = await this.loadData();
-    this.initBlog();
+    setTimeout(function () {
+      const dataSource = data;
+      callback(dataSource);
+    }, 500);
   },
 
   initPopupEmail: function () {
