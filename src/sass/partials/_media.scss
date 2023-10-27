@@ -1,0 +1,104 @@
+@media screen and (max-width: 992px) {
+    h5 {
+    font-size: 1rem;
+    }
+    p {
+        font-size: 0.75rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    footer p {
+        text-align: left;
+    }
+    .containerTopWrapper .headerWrapper .containerHeader {
+        font-size: 12px;
+         .topLogo p {
+             font-size: 16px;
+            }
+    }
+}
+@media screen and (max-width: 576px) {
+
+    .containerTopWrapper {
+        .mainTitle{
+             h4 {
+                font-size: 1.5em;
+             }
+             h2{
+                font-size: 3.5em;
+            }
+        }
+        .headerWrapper .containerHeader {
+            font-size: 8px;
+            .topLogo p{
+                font-size: 10px;
+                }
+                .socialMedia ul{
+                    padding: 0;
+                    li{
+                        padding: 0 0 0 35;
+                        margin: 0;
+                    }
+                }
+                .menu ul{
+                    padding: 0;
+                }
+        }
+    }
+    .sectionTitle{
+        font-size: 25px;
+        margin: 10px auto 50px auto;
+    }
+    .our .quote .quoteText{
+        font-size: 20px;
+    }
+    .navContainer .nav li a {
+    font-size: 12px;
+    }
+    .navContainer .nav li .fa-arrow-right-long {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .card-img-overlay {
+        h5 {
+            font-size: 0.6rem;
+            }
+            p {
+                font-size: 0.4rem;
+        }
+    }
+    .card-body {
+        h5 {
+            font-size: 1rem;
+            }
+            p {
+                font-size: 0.6rem;
+        }
+    }
+    #postsWrapper .postContainer{
+
+        h2{
+            font-size: 1rem;
+        }
+        ul p {
+            font-size: 0.6rem;
+            span{
+                font-size: 0.6rem;
+            }
+        }
+    }
+    footer {
+       h6 {
+        font-size: 0.75rem;
+        }
+        p {
+            font-size: 0.6rem;
+        }
+    }
+    .text-center {
+        font-size: 0.6rem;
+    }
+    .container {
+        margin: 40px auto;
+    }
+}
