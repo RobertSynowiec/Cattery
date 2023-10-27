@@ -101,4 +101,19 @@
     .container {
         margin: 40px auto;
     }
+    .popup {
+        padding: 30px 10px;
+        top: 16%;
+
+        h2,
+        h4 {
+            font-size: calc(0.65rem + .9vw);
+        }
+        ul {
+            font-size: 0.6rem;
+        }
+        p{
+            font-size: 0.4rem;
+        }
+    }
 }
