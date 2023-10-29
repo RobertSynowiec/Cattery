@@ -1,140 +1,166 @@
 @media screen and (max-width: 992px) {
-    h5 {
+  h5 {
     font-size: 1rem;
-    }
-    p {
-        font-size: 0.75rem;
-    }
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
 }
 @media screen and (max-width: 768px) {
-    footer p {
-        text-align: left;
+  footer p {
+    text-align: left;
+  }
+
+  .containerTopWrapper .headerWrapper .containerHeader {
+    font-size: 12px;
+
+    .topLogo p {
+      font-size: 16px;
     }
-    .containerTopWrapper .headerWrapper .containerHeader {
-        font-size: 12px;
-         .topLogo p {
-             font-size: 16px;
-            }
-    }
+  }
 }
 @media screen and (max-width: 576px) {
+  .containerTopWrapper {
+    .mainTitle{
+      h4 {
+        font-size: 1.5em;
+      }
 
-    .containerTopWrapper {
-        .mainTitle{
-             h4 {
-                font-size: 1.5em;
-             }
-             h2{
-                font-size: 3.5em;
-            }
+      h2{
+        font-size: 3.5em;
+      }
+    }
+
+    .headerWrapper .containerHeader {
+      font-size: 8px;
+
+      .topLogo p{
+        font-size: 10px;
+      }
+
+      .socialMedia ul{
+        padding: 0;
+
+        li{
+          padding: 0 0 0 35;
+          margin: 0;
         }
-        .headerWrapper .containerHeader {
-            font-size: 8px;
-            .topLogo p{
-                font-size: 10px;
-                }
-                .socialMedia ul{
-                    padding: 0;
-                    li{
-                        padding: 0 0 0 35;
-                        margin: 0;
-                    }
-                }
-                .menu ul{
-                    padding: 0;
-                }
-        }
+      }
+
+      .menu ul{
+        padding: 0;
+      }
     }
-    .sectionTitle{
-        font-size: 25px;
-        margin: 10px auto 50px auto;
-    }
-    .our .quote .quoteText{
-        font-size: 20px;
-    }
-    .navContainer .nav li a {
+  }
+
+  .sectionTitle{
+    font-size: 25px;
+    margin: 10px auto 50px auto;
+  }
+
+  .our .quote .quoteText{
+    font-size: 20px;
+  }
+
+  .navContainer .nav li a {
     font-size: 12px;
-    }
-    .navContainer .nav li .fa-arrow-right-long {
-        margin-right: 10px;
-        font-size: 12px;
-    }
-    .card-img-overlay {
-        h5 {
-            font-size: 1rem;
-            }
-            p {
-                font-size: 0.75rem;
-        }
-    }
-    .card-body {
-        h5 {
-            font-size: 1.1rem;
-            }
-            p {
-                font-size: 0.75rem;
-        }
-    }
-    #postsWrapper .postContainer{
+  }
 
-        h2{
-            font-size: 1.1rem;
-        }
-        ul p {
-            font-size: 0.75rem;
-            span{
-                font-size: 0.75rem;
-            }
-        }
-    }
-    footer {
-       h6 {
-        font-size: 1rem;
-        }
-        p {
-            font-size: 0.75rem;
-        }
-    }
-    .text-center {
-        font-size: 0.7rem;
-    }
-    .container {
-        margin: 40px auto;
-    }
-    .popup {
-        padding: 30px 10px;
-        top: 16%;
+  .navContainer .nav li .fa-arrow-right-long {
+    margin-right: 10px;
+    font-size: 12px;
+  }
 
-        h2,
-        h4 {
-            font-size: calc(0.65rem + .9vw);
-        }
-        ul {
-            font-size: 0.6rem;
-        }
-        p{
-            font-size: 0.4rem;
-        }
+  .card-img-overlay {
+    h5 {
+      font-size: 1rem;
     }
-    .cookiesBottom {
 
-
-        .wrapperCookies {
-            flex-direction: column;
-
-            .popup-button{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-            }
-            p{
-                font-size: 0.75rem;
-                line-height: 14px;
-                padding-right: 15px;
-            }
-            a {
-                font-size: 0.75rem;
-            }
-        }
+    p {
+      font-size: 0.75rem;
     }
+  }
+
+  .card-body {
+    h5 {
+      font-size: 1.1rem;
+    }
+
+    p {
+      font-size: 0.75rem;
+    }
+  }
+
+  #postsWrapper .postContainer{
+    h2{
+      font-size: 1.1rem;
+    }
+
+    ul p {
+      font-size: 0.75rem;
+
+      span{
+        font-size: 0.75rem;
+      }
+    }
+  }
+
+  footer {
+    h6 {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 0.75rem;
+    }
+  }
+
+  .text-center {
+    font-size: 0.7rem;
+  }
+
+  .container {
+    margin: 40px auto;
+  }
+
+  .popup {
+    padding: 30px 10px;
+    top: 16%;
+
+    h2,
+    h4 {
+      font-size: calc(0.65rem + .9vw);
+    }
+
+    ul {
+      font-size: 0.6rem;
+    }
+
+    p{
+      font-size: 0.4rem;
+    }
+  }
+
+  .cookiesBottom {
+    .wrapperCookies {
+      flex-direction: column;
+
+      .popup-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      p{
+        font-size: 0.75rem;
+        line-height: 14px;
+        padding-right: 15px;
+      }
+
+      a {
+        font-size: 0.75rem;
+      }
+    }
+  }
 }
